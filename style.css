@@ -38,7 +38,8 @@ body {
   .tabs {
     display: flex;
     justify-content: space-around;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    
   }
   .btn {
     padding: 10px;
@@ -48,6 +49,7 @@ body {
     color: #fff;
     outline: none;
     transition: transform .2s ease-in;
+    cursor: pointer;
   }
   .btn:nth-child(1) {
     background-color: #E14B75;
